@@ -9,10 +9,8 @@
   display: flex;
   align-items: center;
 }
-.logo {
-  margin-right: 572px;
-}
 .pages-list {
+  margin-left: auto;
   display: flex;
   padding: 8px;
   align-items: center;
