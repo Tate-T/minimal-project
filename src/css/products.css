@@ -1,0 +1,24 @@
+.ul-product {
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-around;
+}
+
+.photo-product {
+    border: 350px;
+    width: 312px;
+    height: 335px;
+}
+
+.text-ul-product {
+    display: flex;
+    margin-left: 80px;
+}
+
+.text-product {
+    border: 350px;
+}
+
+.title-product {
+    text-align: center;
+}
