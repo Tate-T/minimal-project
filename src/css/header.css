@@ -1,3 +1,10 @@
+.pages-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #0a224a;
+}
 .header {
   display: flex;
   padding: 13px 60px 26px 60px;
