@@ -1,0 +1,35 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+}
+.skills-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 141%;
+  text-transform: uppercase;
+  color: #0a224a;
+}
+.skills-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #0a224a;
+}
+.skills-figure {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0a224a;
+}
+.skills-paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #0a224a;
+}
