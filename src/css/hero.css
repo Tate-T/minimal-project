@@ -4,6 +4,9 @@
 }
 .hero-box {
   display: flex;
+  background-image: url(../img/hero-2.webp);
+  background-position: 345px 0;
+  background-repeat: no-repeat;
 }
 .hero-title {
   color: var(--Blue-font, #0a224a);
@@ -15,6 +18,14 @@
   line-height: 150%;
   text-transform: uppercase;
 }
+.hero-title::after {
+  content: url("../img/hero-1.webp");
+  display: block;
+  margin-top: 51px;
+}
+.hero-content {
+  margin-left: auto;
+}
 .hero-text {
   color: var(--Blue-font, #0a224a);
   font-family: Roboto;
@@ -23,6 +34,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  margin-bottom: 30px;
+}
+.hero-text::before {
+  content: url("../img/hero-3.png");
 }
 .hero-button {
   border: none;
