@@ -1,0 +1,17 @@
+.container {
+    border: 5px solid red;
+    width: 1096px;
+    height: 420px;
+
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.price-text {
+    font-size: 35px;
+}
