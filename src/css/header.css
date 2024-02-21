@@ -9,11 +9,9 @@
   display: flex;
   align-items: center;
 }
-.logo {
-  margin-right: 572px;
-}
 .pages-list {
   display: flex;
+  margin-left: auto;
   padding: 8px;
   align-items: center;
   gap: 30px;
