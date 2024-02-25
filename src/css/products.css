@@ -1,24 +1,24 @@
-.ul-product {
-    display: flex;
-    margin-left: 60px;
-    justify-content: space-around;
+.title-product {
+  text-align: center;
 }
-
+.list-product {
+  display: flex;
+  gap: 24px;
+}
 .photo-product {
-    border: 350px;
-    width: 312px;
-    height: 335px;
-}
-
-.text-ul-product {
-    display: flex;
-    margin-left: 80px;
+  width: 312px;
+  height: 300px;
 }
 
 .text-product {
-    border: 350px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #0a224a;
+  display: flex;
+  margin-top: 15px;
 }
-
-.title-product {
-    text-align: center;
+.product {
+  padding-top: 100px;
 }
