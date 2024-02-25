@@ -1,0 +1,38 @@
+.footer {
+    background-color: #0A224A;
+
+}
+
+.ul-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.p-footer {
+    color: white;
+}
+
+.ul2-footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+.li2-footer {
+    margin-right: 85px;
+}
+
+.li3-footer {
+    margin-right: 165px;
+}
+
+.end-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    color: grey;
+}
+
+
+
