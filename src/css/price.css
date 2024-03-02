@@ -1,11 +1,17 @@
 :root {
   --font-family: 'Roboto', sans-serif;
 }
-
+.price {
+  padding-top: 100px;
+}
 .price-item {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  border-bottom: 1px solid #0a224a;
+  /* height: 105px; */
+}
+.price-item:first-child {
+  border-top: 1px solid #0a224a;
 }
 
 .price-text {
@@ -15,6 +21,8 @@
   line-height: 141%;
   text-transform: uppercase;
   color: #0a224a;
+  display: flex;
+  padding-top: 30px;
 }
 .price-money {
   font-family: var(--font-family);
@@ -23,4 +31,6 @@
   line-height: 150%;
   text-align: right;
   color: #0a224a;
+  display: flex;
+  align-items: center;
 }
