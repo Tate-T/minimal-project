@@ -8,6 +8,8 @@
   line-height: 141%;
   text-transform: uppercase;
   color: #0a224a;
+  border: 1px solid white;
+  width: 650px;
 }
 .skills-text {
   font-family: var(--font-family);
@@ -15,6 +17,8 @@
   font-size: 18px;
   line-height: 150%;
   color: #0a224a;
+  border: 1px solid white;
+  width: 650px;
 }
 .skills-figure {
   font-family: var(--font-family);
@@ -24,6 +28,7 @@
   text-transform: uppercase;
   text-align: center;
   color: #0a224a;
+
 }
 .skills-paragraph {
   font-family: var(--font-family);
@@ -32,4 +37,14 @@
   line-height: 150%;
   text-align: center;
   color: #0a224a;
+}
+
+
+.skills-list {
+  display: flex;
+}
+
+.skills-photo {
+  width: 1320px;
+  height: 540px;
 }
