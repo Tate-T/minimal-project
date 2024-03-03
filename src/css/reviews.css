@@ -1,5 +1,6 @@
 .reviews {
   background-color: #f7faff;
+  padding-bottom: 60px;
 }
 .reviews-list {
   display: flex;
@@ -7,6 +8,7 @@
 }
 .reviews-item {
   background-color: white;
+  border-radius: 8px;
   width: 424px;
   height: 306px;
 }
