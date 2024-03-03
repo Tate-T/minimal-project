@@ -13,6 +13,12 @@
 .price-item:first-child {
   border-top: 1px solid #0a224a;
 }
+.price-text:hover::before {
+  content: url('../img/line.webp');
+  margin-right: 30px;
+  position: relative;
+  bottom: 10px;
+}
 
 .price-text {
   font-family: var(--font-family);
@@ -22,7 +28,9 @@
   text-transform: uppercase;
   color: #0a224a;
   display: flex;
+
   padding-top: 30px;
+  margin-bottom: 30px;
 }
 .price-money {
   font-family: var(--font-family);
