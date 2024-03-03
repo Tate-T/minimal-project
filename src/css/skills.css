@@ -1,6 +1,12 @@
 :root {
   --font-family: 'Roboto', sans-serif;
 }
+
+.skills-description::before {
+  content: "——";
+  margin-right: 20px;
+}
+
 .skills-title {
   font-family: var(--font-family);
   font-weight: 400;
@@ -55,7 +61,11 @@
 
 .block {
   border: 1px solid rgba(245, 222, 179, 0);
+  border-radius: 1px;
   width: 700px;
+  background: #F7FAFF;
+  margin-right: 23px;
+
 }
 
 .display {
