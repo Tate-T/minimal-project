@@ -33,7 +33,12 @@
 
 .item-footer {
     display: flex ;
-    margin-right: 100px;
+    margin-right: 77px;
+}
+
+.item2-footer {
+    display: flex ;
+    margin-right: 85px;
 }
 
 .img-footer {
