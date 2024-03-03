@@ -1,0 +1,73 @@
+.registration {
+  padding-bottom: 86px;
+}
+
+.reg-title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 141%;
+  text-transform: uppercase;
+  color: #0a224a;
+  /* padding-left: 218px; */
+  margin-bottom: 30px;
+}
+.reg-box {
+  display: flex;
+  justify-content: center;
+}
+.reg-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #0a224a;
+  /* padding-left: 218px; */
+  margin-bottom: 20px;
+}
+
+.reg-form {
+  border: 1px solid #b6b6b6;
+  padding: 11px 20px;
+  width: 536px;
+  height: 51px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #d9d9d9;
+  display: block;
+  margin-bottom: 28px;
+}
+.checkbox {
+  border: 1px solid #b6b6b6;
+  width: 25px;
+  height: 25px;
+}
+.reg-checkbox {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #7a7a7a;
+}
+.reg-btn {
+  padding: 17px 65px;
+  width: 224px;
+  height: 51px;
+  background: #0a224a;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+  display: block;
+  margin-top: 31px;
+}
+.reg-list {
+  display: flex;
+  gap: 100px;
+}
+.reg-btn {
+  border: none;
+}
