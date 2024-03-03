@@ -33,6 +33,11 @@
 
 .item-footer {
     display: flex ;
+    margin-right: 76px;
+}
+
+.item2-footer {
+    display: flex ;
     margin-right: 85px;
 }
 
