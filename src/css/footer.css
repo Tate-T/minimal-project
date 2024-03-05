@@ -1,70 +1,65 @@
 .footer {
-    background-color: #0A224A;
-
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: #0a224a;
 }
-
-.container {
-    width: 1344px;
-    border-width: initial;
-    border-style: solid;
-    border-color: red;
-    border-image: initial;
-    padding: 0px 12px;
-    margin: 0px auto;
+.footer-box {
+  display: flex;
 }
-
-.list-footer {
+.logo-footer-svg {
+  margin-bottom: 39px;
+  margin-right: 209px;
+}
+.fotter-adres {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.19px;
+  margin-bottom: 24px;
+}
+.footer-time {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.19px;
+}
+.footer-list {
+  display: inline-flex;
+  padding: 8px;
+  gap: 30px;
+  margin-right: 286px;
+}
+.footer-link {
+  align-items: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.tel {
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0.19px;
+}
+.footer-fiy-list {
     display: flex;
-    justify-content: space-between;
-    padding-top: 45px;
+    gap: 30px;
 }
-
-.list2-footer {
-    display: flex;
+.footer-fiy-item {
 }
-
-.list3-footer {
-    display: flex;
+.footer-terms {
 }
-
-.text-footer {
-    color: white;
-}
-
-.item-footer {
-    display: flex ;
-    margin-right: 76px;
-}
-
-.item2-footer {
-    display: flex ;
-    margin-right: 85px;
-}
-
-.item2-footer {
-    display: flex ;
-    margin-right: 85px;
-}
-
-
-.img-footer {
-    margin-right: 30px;
-}
-
-.text-footer {
-    margin-right: 30px;
-    color: white;
-}
-
-.item3-footer {
-    margin-top: 20px;
-    margin-right: 165px;
-}
-
-.end-footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    padding-bottom: 35px;
-    color: grey;
+.footer-span {
 }
