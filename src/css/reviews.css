@@ -25,6 +25,7 @@
   display: flex;
   justify-content: center;
   padding-top: 60px;
+  margin-bottom: 30px;
 }
 .reviews-subtitle {
   font-family: Roboto;
