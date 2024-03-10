@@ -38,6 +38,8 @@
 }
 .hero-text::before {
   content: url("../img/hero-3.png");
+  display: block;
+  margin-bottom: 51px;
 }
 .hero-button {
   border: none;
